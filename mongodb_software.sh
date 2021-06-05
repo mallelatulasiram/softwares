@@ -8,6 +8,3 @@ sudo apt update
 sudo apt install mongodb-org
 sudo systemctl start mongod.service
 sudo systemctl status mongod
-sudo systemctl enable mongod
-mongo --eval 'db.runCommand({ connectionStatus: 1 })'
-sudo systemctl status mongod
